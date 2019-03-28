@@ -1,0 +1,49 @@
+<html>
+<body>
+  <head>
+  <title>Uki Admission</title>
+  </head>
+<h1  style="text-align:center">Uki Student</h1>
+<body style=" background-color:lightblue">
+<center>
+  <div style=" width:800; height:400;  text-align:left">
+<fieldset>
+  <legend style="center">Uki life:</legend>
+  <form>
+   First name:
+   <input type="text" name="firstname" >
+  <br><br>
+  Last name:
+  <input type="text" name="last name">
+  <br><br>
+  Reg No:
+  <input type="text" name="reg no">
+  <br><br>
+   Date of Birth:
+   <input type="text" name="date of birth">
+  <br><br>
+   Gener:
+
+  <input type="radio" name="gender" value="Male"> male
+  <input type="radio" name="gender" value="Female"> female <br><br>
+
+  Favourite Subjects:<br>
+
+  <input type="checkbox" name="gender" value="English"> English
+  <input type="checkbox" name="gender" value="Personal Coaching"> personal corsonal
+  <input type="checkbox" name="gender" value="Web Development"> web Development
+  <input type="checkbox" name="gender" value="Programming"> Programming<br><br>
+
+ <br>
+  Feedback:<br>
+  <textarea rows="10" cols="50">
+  </textarea>
+  <br>
+  <center>
+  <input type="Reset" value="reset">
+  <input type="Submit" value="submit">
+  </center>
+  <br>
+</form>
+</fieldset>
+</body>
